@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Posts = (props) => {
     const {userId,title, id, body } = props.post;
-    // console.log(title);
+    
     const postStyle = {
         border: '1px solid red',
         margin: '5px',

@@ -14,7 +14,7 @@ const Home = () => {
         <div>
             <h1>this is home</h1>
             {
-                posts.map(pd => <Posts key ={pd.id} post={pd}></Posts>)
+                posts.map(element => <Posts key ={element.id} post={element}></Posts>)
             }
         </div>
     );
