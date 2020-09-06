@@ -12,7 +12,7 @@ const Home = () => {
     }, [])
     return (
         <div>
-            <h1>this is home</h1>
+            <h1 style={{textAlign:"center"}}>Welcome to Social Buddy Network</h1>
             {
                 posts.map(element => <Posts key ={element.id} post={element}></Posts>)
             }
